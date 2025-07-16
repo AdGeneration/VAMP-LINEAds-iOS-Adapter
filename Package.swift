@@ -27,7 +27,6 @@ let package = Package(
             name: "VAMPLINEAdsAdapterTarget",
             dependencies: [
                 .target(name: "VAMPLINEAdsAdapter"),
-                // 修正点: FiveAdへの依存関係を追加
                 .target(name: "FiveAd"),
                 .product(name: "VAMP", package: "VAMP-iOS-SDK"),
             ],
