@@ -36,9 +36,8 @@ let package = Package(
             name: "VAMPLINEAdsAdapter",
             url: "https://d2dylwb3shzel1.cloudfront.net/iOS/VAMPLINEAdsAdapter-v2.9.2025050700.zip",
             checksum: "3b34a3aa4dba1b4d07c925e840d2494be248c66a5f7924f8e3fcec94c98d8aae"
-        ), // 修正点: カンマを追加
+        ),
         .binaryTarget(
-            // 修正点: 命名をFiveAdに統一
             name: "FiveAd",
             url: "https://cdn.fivecdm.com/release-sdk/ios/20250512/FiveAd.framework-20250512.zip",
             checksum: "9a7f3d9954db10657de426981d4f2b9a6d43cdb96b686c14acd23f20c31f879f"
