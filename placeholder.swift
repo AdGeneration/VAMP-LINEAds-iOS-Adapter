@@ -1,0 +1,3 @@
+//
+//  VAMP-LINEAds-iOS-Adapter
+//
