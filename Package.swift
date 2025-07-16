@@ -39,8 +39,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "FiveAd",
-            url: "https://cdn.fivecdm.com/release-sdk/ios/20250512/FiveAd.framework-20250512.zip",
-            checksum: "9a7f3d9954db10657de426981d4f2b9a6d43cdb96b686c14acd23f20c31f879f"
+            url: "https://cdn.fivecdm.com/release-sdk/ios/20250507/FiveAd.framework-20250507.zip",
+            checksum: "c266217c4f08e4d3b4160b3720b3bbfb3d536f04012e1a81cb4cb1c3ad2dae59"
         )
     ]
 )
