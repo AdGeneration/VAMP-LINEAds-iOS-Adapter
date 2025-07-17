@@ -13,6 +13,9 @@ let package = Package(
         .library(
             name: "VAMPLINEAdsAdapter",
             targets: ["VAMPLINEAdsAdapterTarget"]),
+        .library(
+            name: "FiveAd",
+            targets: ["FiveAd"])
     ],
     dependencies: [
         .package(
