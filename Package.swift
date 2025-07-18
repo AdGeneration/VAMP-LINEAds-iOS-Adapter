@@ -12,10 +12,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "VAMPLINEAdsAdapter",
-            targets: ["VAMPLINEAdsAdapterTarget"]),
-        .library(
-            name: "FiveAd",
-            targets: ["FiveAd"])
+            targets: ["VAMPLINEAdsAdapterTarget", "FiveAd"]),
     ],
     dependencies: [
         .package(
