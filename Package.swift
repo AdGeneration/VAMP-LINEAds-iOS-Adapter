@@ -19,6 +19,10 @@ let package = Package(
             url: "https://github.com/AdGeneration/VAMP-iOS-SDK",
             "5.3.2"..<"6.0.0"
         ),
+        .package(
+            url: "https://github.com/ly-ads-network/swift-package-manager-fivead.git",
+            exact: "3.0.1"
+        ),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -27,20 +31,15 @@ let package = Package(
             name: "VAMPLINEAdsAdapterTarget",
             dependencies: [
                 .target(name: "VAMPLINEAdsAdapter"),
-                .target(name: "FiveAd"),
                 .product(name: "VAMP", package: "VAMP-iOS-SDK"),
+                .product(name: "FiveAd", package: "swift-package-manager-fivead"),
             ],
             path: "VAMPLINEAdsAdapterTarget"
         ),
         .binaryTarget(
             name: "VAMPLINEAdsAdapter",
-            url: "https://d2dylwb3shzel1.cloudfront.net/iOS/VAMPLINEAdsAdapter-v2.9.2025050700.zip",
-            checksum: "3b34a3aa4dba1b4d07c925e840d2494be248c66a5f7924f8e3fcec94c98d8aae"
-        ),
-        .binaryTarget(
-            name: "FiveAd",
-            url: "https://cdn.fivecdm.com/release-sdk/ios/20250507/FiveAd.framework-20250507.zip",
-            checksum: "c266217c4f08e4d3b4160b3720b3bbfb3d536f04012e1a81cb4cb1c3ad2dae59"
+            url: "https://d2dylwb3shzel1.cloudfront.net/iOS/VAMPLINEAdsAdapter-v3.0.100.zip",
+            checksum: "82d298eee5093f5c72a03efd149aa3bd31e70f4299c3157ea4804617bcc044e7"
         )
     ]
 )
