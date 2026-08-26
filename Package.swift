@@ -21,7 +21,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/ly-ads-network/swift-package-manager-fivead.git",
-            exact: "3.0.1"
+            exact: "3.1.0"
         ),
     ],
     targets: [
@@ -38,8 +38,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "VAMPLINEAdsAdapter",
-            url: "https://d2dylwb3shzel1.cloudfront.net/iOS/VAMPLINEAdsAdapter-v3.0.100.zip",
-            checksum: "82d298eee5093f5c72a03efd149aa3bd31e70f4299c3157ea4804617bcc044e7"
+            url: "https://github.com/AdGeneration/VAMP-LINEAds-iOS-Adapter/releases/download/3.1.0/VAMPLINEAdsAdapter-v3.1.0.zip",
+            checksum: "1d29c3d0c49eed255e19ec204615a4fadd9371aa6b44fec9872db40345429dae"
         )
     ]
 )
